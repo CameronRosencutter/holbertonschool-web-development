@@ -1,24 +1,36 @@
+/*This is the code for the header. I am ready to scratch this if newer and better code comes for placing items where you want.*/
 .Header {
     background: red;
-    height: auto;
+    height: 150px;
+    border: 3px black solid;
+}
+
+.border {
+    margin: 20px;
+    border: 3px rgb(225, 196, 33) solid;
 }
 
 .logo {
-    margin-top: 100px;
-    margin-left: 175px;
+    margin-top: 5%;
+    margin-left: 5%;
 }
 
 .links {
-    margin-top: 103px;
-    margin-right: 169px;
-    height: auto;
     float: right;
-    border: 3px solid rgb(0, 0, 0);
+    border: 2px purple solid;
+    margin-top: 5%;
 }
 
-.links li {
-    width: 300px;
+li {
+    border: 2px yellowgreen solid;
+    padding: 10px 40px;
     display: inline;
-    padding: 0px 50px;
-    border: 3px solid rgb(32, 92, 221);
 }
+
+li a {
+    justify-content: center;
+    padding: 0px 60px;
+    font-size: 21px;
+}
+
+
