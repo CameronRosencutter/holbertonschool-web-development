@@ -23,14 +23,20 @@
 
 li {
     border: 2px yellowgreen solid;
-    padding: 10px 40px;
+    padding: 5px 5px;
     display: inline;
 }
 
 li a {
     justify-content: center;
-    padding: 0px 60px;
+    padding: 0px 90px;
     font-size: 21px;
 }
+/*End of Header Section*/
 
 
+/*This is for the Main bannner*/
+
+.Banner {
+    background: yellow;
+}
