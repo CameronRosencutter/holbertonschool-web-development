@@ -1,1 +1,24 @@
-/*Empty...For now...*/
+.Header {
+    background: red;
+    height: 60px;
+}
+
+.logo {
+    color: white;
+}
+
+.links {
+    padding: 20px 20px;
+    height: 90px;
+    float: right;
+    border: 3px solid rgb(0, 0, 0);
+
+}
+
+.links li {
+    text-align: center;
+    width: 200px;
+    display: inline;
+    padding: 0px 30px;
+    border: 3px solid rgb(32, 92, 221);
+}
