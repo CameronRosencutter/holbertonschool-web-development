@@ -1,6 +1,12 @@
+body {
+    background: url(./Images/Background.png);
+    background-repeat: no-repeat;
+    width 100%;
+}
+
+
 /*This is the code for the header. I am ready to scratch this if newer and better code comes for placing items where you want.*/
 .Header {
-    background: red;
     height: auto;
     border: 3px black solid;
 }
@@ -39,7 +45,6 @@ li a {
 
 .Banner {
     height: auto;
-    background: rgb(234, 159, 9);
     border: rgb(25, 205, 215) solid 3px;
 }
 
@@ -69,3 +74,4 @@ li a {
     justify-content: center;
     text-align: center;
 }
+
