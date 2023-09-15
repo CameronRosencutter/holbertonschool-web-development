@@ -1,24 +1,24 @@
 .Header {
     background: red;
-    height: 60px;
+    height: auto;
 }
 
 .logo {
-    color: white;
+    margin-top: 100px;
+    margin-left: 175px;
 }
 
 .links {
-    padding: 20px 20px;
-    height: 90px;
+    margin-top: 103px;
+    margin-right: 169px;
+    height: auto;
     float: right;
     border: 3px solid rgb(0, 0, 0);
-
 }
 
 .links li {
-    text-align: center;
-    width: 200px;
+    width: 300px;
     display: inline;
-    padding: 0px 30px;
+    padding: 0px 50px;
     border: 3px solid rgb(32, 92, 221);
 }
