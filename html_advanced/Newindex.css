@@ -80,7 +80,11 @@
 .QuoteSection {
     border: 3px black solid;
 }
+/*---------------------------------------------------------------*/
 
+/*---------------------------------------------------------------*/
+/*This is the video gallery that will display thumbnails and the 
+    content creator*/
 .VideoSection {
     border: 3px black solid;
 }
@@ -110,7 +114,11 @@
     border: 3px rgb(16, 120, 147) solid;
     display: flex;
 }
+/*---------------------------------------------------------------*/
 
+/*---------------------------------------------------------------*/
+/*This is the Freemembership section. Most of the text will be lorem ipsum,
+    along with a register for free button*/
 .freemembershiptitle {
     text-align: center;
     border: 3px black solid;
@@ -141,6 +149,10 @@
     position: absolute;
     left: 50%;
 }
+/*---------------------------------------------------------------*/
+
+/*---------------------------------------------------------------*/
+/*This will display the FAQ section, also mostly filled with Lorem Ipsum*/
 
 .FAQ {
     margin-top: 50px;
@@ -159,6 +171,10 @@
     justify-content: space-evenly;
     display: flex;
 }
+/*---------------------------------------------------------------*/
+
+/*---------------------------------------------------------------*/
+/*This is the footer. It will be at the very end of the website and contain media icson.*/
 
 .Footer {
     border: 3px black solid;
@@ -191,6 +207,7 @@
     justify-content: center;
     border: 3px yellow solid;
 }
+/*---------------------------------------------------------------*/
 
 
 
