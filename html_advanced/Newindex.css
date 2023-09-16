@@ -4,14 +4,55 @@
 
 .Header {
     border: 3px black solid;
-    height: 100px;
+    height: auto;
     width: auto;
 }
+
+.headerborder {
+    border: 3px red solid;
+    margin: 2px;
+}
+
+.headerlogo {
+}
+
+.links {
+    display: flex;
+    float: right;
+}
+
+
 
 .Banner {
     border: 3px black solid;;
     height: 780px;
     width: auto;
+}
+
+.GetSchooled {
+    margin: 30px;
+    border: 3px red solid;
+    align-items: center;
+}
+
+.GetSchooled h1 {
+    text-align: center;
+}
+
+.GetSchooled p {
+    text-align: center;
+}
+
+.schooledbutton {
+    position:absolute;
+    align-items: center;
+    left: 50%;
+}
+
+.learntitle {
+    position: relative;
+    top: 400px;
+    left: 560px;
 }
 
 .ThePros {
@@ -23,20 +64,17 @@
     top: 400px;
 }
 
+.thequote {
+    justify-content: space-evenly;
+    display: flex;
+}
+
 .QuotePerson {
-    position: relative;
-    top: 200px;
+    border: 3px red solid;
 }
 
 .QuoteSection {
     border: 3px black solid;
-    height: 270px;
-    position: relative;
-    top: 60px;
-    width: auto;
-    justify-content: center;
-    align-content: center;
-    display: inline-flexbox;
 }
 
 .VideoSection {
@@ -121,5 +159,34 @@
 .Footer {
     border: 3px black solid;
 }
+
+.footerborder {
+    margin: 10px;
+    border: 3px black solid;
+}
+
+.logoandicons {
+    justify-content: right;
+    display: flex;
+    border: 3px red solid;
+}
+
+.bottomicon {
+    left: -70%;
+    position: relative;
+    border: 3px black solid;
+}
+
+.bottomlogos {
+    align-items: right;
+    border: 3px black solid;
+}
+
+.bottomtext {
+    text-align: center;
+    justify-content: center;
+    border: 3px yellow solid;
+}
+
 
 
