@@ -42,25 +42,17 @@ This is a Paragraph
 This is also a paragraph
 
 ```
+</details>
+
+<details><summary>What is an Attribute?</summary>
+An Attribute provides more information about an element. If you want to display an image in your webpage, there are two methods to doing it. The first method is providing a url in the code that will provide a link to the image. The other is actually having the image download in your repository and providing the path to it.
 
 </details>
 
-<details><summary></summary>
-
-</details>
-
-<details><summary></summary>
+<details><summary>What the purpose of each HTML tag?</summary>
 
 
 ```
 
 ```
-</details>
-
-<details><summary></summary>
-
-</details>
-
-<details><summary></summary>
-
 </details>
