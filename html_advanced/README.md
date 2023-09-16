@@ -22,7 +22,22 @@ Next you ascertain which elements you want to include. If you want a title for y
 Javascript can be implemented in an HTML code. However, depending on the size of your index, navigating and pointing to certain elements can be difficult. Which is why it is important to label and organize your elements. Thats where DOM comes in. DOM stands for Document Object Model. When an HTML is loaded, DOM is loaded as well and keeps track of elements with a specific id, name, or any other selector.
 </details>
 
-<details><summary></summary>
+<details><summary>What is an element/tag?</summary>
+An element is the main source of filling out your webpage. Its goal is to display the desired content within its brackets. For example...
+
+```
+
+<h1>This is  the header</h1>
+<p>This is a Paragraph</p>
+<p1>This is also a paragraph</p1>
+
+```
+
+The end result will be:
+
+This is  the header
+This is a Paragraph
+This is also a paragraph
 
 </details>
 
@@ -34,17 +49,7 @@ Javascript can be implemented in an HTML code. However, depending on the size of
 
 
 ```
-<html>: Root element that contains all other HTML elements.
-<head>: Contains meta information, links to CSS, JS files, etc.
-<title>: Sets the title of the web page.
-<body>: Contains the content of the web page.
-<h1>, <h2>, ... <h6>: Headings to structure content.
-<p>: Paragraph.
-<a>: Anchor (links).
-<img>: Embed images.
-<ul>, <ol>, <li>: Lists.
-<table>, <tr>, <td>: Table and its rows and data cells.
-... and many more.
+
 ```
 </details>
 
