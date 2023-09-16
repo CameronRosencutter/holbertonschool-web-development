@@ -1,0 +1,76 @@
+.body {
+    background: darkblue;
+}
+
+.Header {
+    border: 3px black solid;
+    height: 100px;
+    width: auto;
+}
+
+.Banner {
+    border: 3px black solid;;
+    height: 780px;
+    width: auto;
+}
+
+.ThePros {
+    border: 3px black solid;
+    display: flex;
+    height: 130px;
+    justify-content: space-evenly;
+    position: relative;
+    top: 400px;
+}
+
+.QuotePerson {
+    position: relative;
+    top: 200px;
+}
+
+.QuoteSection {
+    border: 3px black solid;
+    height: 270px;
+    position: relative;
+    top: 60px;
+    width: auto;
+    justify-content: center;
+    align-content: center;
+    display: inline-flexbox;
+}
+
+.VideoSection {
+    border: 3px black solid;
+}
+
+.populartitle {
+    border: 3px black solid;
+    text-align: center;
+}
+
+.videogallery {
+    border: 3px black solid;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.Video {
+    border: 3px black solid;
+}
+
+.philipmaseyvideo {
+    border: 3px red solid;
+    display: flex;
+}
+
+.philipmaseyrating {
+    border: 3px rgb(16, 120, 147) solid;
+    display: flex;
+}
+
+.Membership {
+    border: 3px black solid;
+    display: flex;
+    justify-content: space-evenly;
+}
