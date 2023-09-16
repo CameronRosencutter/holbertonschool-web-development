@@ -35,9 +35,13 @@ An element is the main source of filling out your webpage. Its goal is to displa
 
 The end result will be:
 
+```
+
 This is  the header
 This is a Paragraph
 This is also a paragraph
+
+```
 
 </details>
 
