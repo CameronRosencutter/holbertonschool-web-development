@@ -48,11 +48,3 @@ This is also a paragraph
 An Attribute provides more information about an element. If you want to display an image in your webpage, there are two methods to doing it. The first method is providing a url in the code that will provide a link to the image. The other is actually having the image download in your repository and providing the path to it.
 
 </details>
-
-<details><summary>What the purpose of each HTML tag?</summary>
-
-
-```
-
-```
-</details>
