@@ -2,6 +2,8 @@
     background: darkblue;
 }
 
+/*---------------------------------------------------------------*/
+/*This is the Header. It contains the logo and the navbar links*/
 .Header {
     border: 3px black solid;
     height: auto;
@@ -13,16 +15,15 @@
     margin: 2px;
 }
 
-.headerlogo {
-}
-
 .links {
     display: flex;
     float: right;
 }
+/*---------------------------------------------------------------*/
 
-
-
+/*---------------------------------------------------------------*/
+/*This is the main banner. It will containn the title 
+    Get Schooled along with the pros listed below*/
 .Banner {
     border: 3px black solid;;
     height: 780px;
@@ -63,7 +64,10 @@
     position: relative;
     top: 400px;
 }
+/*---------------------------------------------------------------*/
 
+/*---------------------------------------------------------------*/
+/*This will display a portrait of a man, along with his quote to the side*/
 .thequote {
     justify-content: space-evenly;
     display: flex;
