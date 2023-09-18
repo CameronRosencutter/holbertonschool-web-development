@@ -1,15 +1,40 @@
-button {
-    font-size: 16px;
+.div {
+    border: black solid 3px;
+    height: 500px;
+}
+
+.border {
+    border: red 3px solid;
+    margin: 20px;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
     position: relative;
+    top: 40%;
+}
+
+button {
+    height: 50px;
+    align-content: center;
+    justify-content: center;
+    font-size: 16px;
     margin: auto;
     padding: 1em 2.5em 1em 2.5em;
     border: none;
     border-radius: 30px;
     background: #C271FF;
-    transition: all 0.1s linear;
+    transition: all 0.3s ease-in;
     box-shadow: 0 0.4em 1em rgba(0, 0, 0, 0.1);
 }
 
 button:hover {
-    transform: scale(1.05);
+    color: #C271FF;
+    transform: scale(1.02);
+    border: 2px solid #C271FF;
+    background-color: white;
+    box-shadow: 0 0.4em 1em rgba(0, 0, 0, 0.1),
+                0 0.4em 1em rgba(0, 0, 0, 0.1),
+                0 0.4em 1em rgba(0, 0, 0, 0.1),
+                0 0.4em 1em rgba(0, 0, 0, 0.1);
+
 }
