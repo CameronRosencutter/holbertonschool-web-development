@@ -1,32 +1,50 @@
-.body {
-}
-
 html,body
 {
-    width: 100%;
-    height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden; 
+    overflow-x: hidden;
+    background-image: url(./Images/Background.png);
+    background-repeat: no-repeat;
+    background-size:100% auto;
 }
 
 /*---------------------------------------------------------------*/
 /*This is the Header. It contains the logo and the navbar links*/
 .Header {
     border: 3px black solid;
-    height: auto;
+    height: 80px;
     width: auto;
-    
+    margin: 0px 100px; 
+}
+
+.headerlogo  {
+    border: purple 3px solid;
+    height: 30px;
+    width: auto;
 }
 
 .headerborder {
     border: 3px red solid;
-    margin: 2px;
+    margin: 20px;
 }
 
 .links {
+    border: red solid 3px;
     display: flex;
     float: right;
+    list-style: none;
+}
+
+.links a {
+    color: #FFF;
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 40px;
+    border: blue solid 2px;
+    text-decoration: none;
 }
 /*---------------------------------------------------------------*/
 
