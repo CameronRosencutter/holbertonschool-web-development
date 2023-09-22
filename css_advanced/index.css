@@ -303,6 +303,7 @@ button:hover {
     border: 3px rgb(173, 46, 46) solid;
     display: flex;
     justify-content: space-evenly;
+    height: auto;
 }
 
 .play {
@@ -327,6 +328,16 @@ button:hover {
     border: blue solid 3px;
 }
 
+.titleanddesc h1{
+    border: blue solid 3px;
+    margin: 0px;
+}
+
+.titleanddesc p{
+    border: blue solid 3px;
+    margin: 0px;
+}
+
 .philipmaseyvideo {
     border: 3px red solid;
     display: flex;
@@ -343,14 +354,25 @@ button:hover {
 .philipmaseyvideo h1 {
     border: 3px rgb(223, 213, 17) solid;
     display: flex;
-    margin-top: 15px;
+    margin-top: 18px;
     color: #C271FF;
     font-size: 15px;
 }
 
 .philipmaseyrating {
-    border: 3px rgb(16, 120, 147) solid;
+    border: 3px rgb(143, 203, 218) solid;
     display: flex;
+}
+
+.philipmaseyrating img {
+    border: 3px rgb(16, 120, 147) solid;
+    height: 100%;
+    margin-top: 26px;
+}
+
+.philipmaseyrating h1 {
+    border: 3px rgb(16, 120, 147) solid;
+    height: 100%;
 }
 /*---------------------------------------------------------------*/
 
