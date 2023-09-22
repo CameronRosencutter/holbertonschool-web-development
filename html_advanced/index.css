@@ -74,7 +74,15 @@ html,body
     margin: 40px;
     border: blue solid 2px;
     text-decoration: none;
+    transition: 0.3s all;
 }
+
+.links a:hover {
+    transition: 0.3s;
+    font-size: 27px;
+    color: blue;
+}
+
 /*---------------------------------------------------------------*/
 
 /*---------------------------------------------------------------*/
@@ -116,6 +124,11 @@ html,body
     word-spacing: 90px;
     text-transform: uppercase;
     margin: 0px;
+}
+
+.GetSchooled p:hover {
+    transform: scale(1.1);
+    transition: 0.3s ease-in;
 }
 
 .buttoncontainer {
@@ -174,7 +187,6 @@ button:hover {
 
 
 .ThePros {
-    border: rgb(223, 21, 21) solid 3px;
     border: 3px black solid;
     display: flex;
     justify-content: space-evenly;
@@ -184,14 +196,12 @@ button:hover {
 /*Each icon will grow and saturate when hovered over*/
 .ThePros img {
     filter: saturate(0.4);
-    border: red 3px solid;
 }
 
 .ThePros img:hover {
     filter: saturate(1);
     transition: 0.3s;
     transform: scale(1.1);
-    border: red 3px solid;
 }
 
 .ThePros h1 {
@@ -392,4 +402,6 @@ button:hover {
     border: 3px yellow solid;
 }
 /*---------------------------------------------------------------*/
+
+
 
