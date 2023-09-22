@@ -246,7 +246,7 @@ button:hover {
     align-items: center;
     justify-content: center;
     border: 3px red solid;
-    margin-left: 100px;
+    margin-left: 250px;
 }
 
 .QuotePerson img {
@@ -323,9 +323,29 @@ button:hover {
     border: 3px rgb(199, 49, 49) solid;
 }
 
+.titleanddesc {
+    border: blue solid 3px;
+}
+
 .philipmaseyvideo {
     border: 3px red solid;
     display: flex;
+    height: auto;
+}
+
+.philipmaseyvideo img {
+    border: 3px rgb(223, 213, 17) solid;
+    display: flex;
+    height: 100%;
+    margin-top: 13px;
+}
+
+.philipmaseyvideo h1 {
+    border: 3px rgb(223, 213, 17) solid;
+    display: flex;
+    margin-top: 15px;
+    color: #C271FF;
+    font-size: 15px;
 }
 
 .philipmaseyrating {
