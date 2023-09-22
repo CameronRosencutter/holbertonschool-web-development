@@ -35,6 +35,7 @@ html,body
     background-repeat: no-repeat;
     background-size:100%;
     margin: auto;
+    background-color: black;
 }
 
 /*---------------------------------------------------------------*/
@@ -187,15 +188,15 @@ button:hover {
 
 
 .ThePros {
-    border: 3px black solid;
+    border: 3px rgb(241, 47, 47) solid;
     display: flex;
     justify-content: space-evenly;
-    position: relative;
 }
 
 /*Each icon will grow and saturate when hovered over*/
 .ThePros img {
     filter: saturate(0.4);
+    border: white solid 3px;
 }
 
 .ThePros img:hover {
@@ -203,6 +204,7 @@ button:hover {
     transition: 0.3s;
     transform: scale(1.1);
 }
+
 
 .ThePros h1 {
     color: #FFF;
