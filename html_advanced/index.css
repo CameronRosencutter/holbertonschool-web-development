@@ -177,7 +177,7 @@ button:hover {
 
 /*Each icon will grow and saturate when hovered over*/
 .ThePros img {
-    filter: saturate(0.5);
+    filter: saturate(0.4);
     border: red 3px solid;
 }
 
