@@ -29,6 +29,7 @@ html,body
     background-image: url(./Images/Background.png);
     background-repeat: no-repeat;
     background-size:100%;
+    margin: auto;
 }
 
 /*---------------------------------------------------------------*/
@@ -216,16 +217,23 @@ button:hover {
 /*---------------------------------------------------------------*/
 /*This will display a portrait of a man, along with his quote to the side*/
 .thequote {
-    justify-content: space-evenly;
     display: flex;
     border: purple solid 5px;
-    margin-top: 40px;
+    margin-top: 0px;
     width: auto;
     height: 392px;
+    background-color: #C271FF;
 }
 
 .QuotePerson {
+    align-items: center;
+    justify-content: center;
     border: 3px red solid;
+}
+
+.QuotePerson img {
+    display: flex;
+    margin: 100px;
 }
 
 .QuoteSection {
