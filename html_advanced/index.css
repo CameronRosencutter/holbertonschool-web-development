@@ -83,13 +83,39 @@ html,body
     line-height: normal;
     border: green 3px solid;
     word-spacing: 90px;
-    text-transform: capitalize;
+    text-transform: uppercase;
+    margin: 0px;
 }
 
-.schooledbutton {
-    position: relative;
-    align-items: center;
-    left: 47%;
+.buttoncontainer {
+    text-align: center;
+    border: purple 3px solid;
+    margin: 40px;
+}
+
+/*This button will have an effect when you hover over it.*/
+button {
+    height: 50px;
+    align-content: center;
+    justify-content: center;
+    font-size: 16px;
+    margin: auto;
+    padding: 1em 2.5em 1em 2.5em;
+    border: none;
+    border-radius: 30px;
+    background: #C271FF;
+    box-shadow: 0 0.4em 1em rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    color: #C271FF;
+    transition: 0.5s;
+    transform: scale(1.02);
+    background-color: white;
+    box-shadow: 0 0.4em 1em rgba(0, 0, 0, 0.1),
+                0 0.4em 1em rgba(0, 0, 0, 0.1),
+                0 0.4em 1em rgba(0, 0, 0, 0.1),
+                0 0.4em 1em rgba(0, 0, 0, 0.1);
 }
 
 .learntitle {
