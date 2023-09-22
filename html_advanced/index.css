@@ -95,14 +95,22 @@ html,body
 
 /*This button will have an effect when you hover over it.*/
 button {
+    color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
     height: 50px;
     align-content: center;
     justify-content: center;
-    font-size: 16px;
+    font-size: 14px;
     margin: auto;
     padding: 1em 2.5em 1em 2.5em;
     border: none;
     border-radius: 30px;
+    text-transform: uppercase;
     background: #C271FF;
     box-shadow: 0 0.4em 1em rgba(0, 0, 0, 0.1);
 }
