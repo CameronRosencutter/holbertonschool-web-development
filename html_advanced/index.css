@@ -287,6 +287,7 @@ button:hover {
 }
 
 .titlevideo {
+    background-color: #FFF;
     border: rgb(255, 29, 255) solid 3px;
 }
 
@@ -298,6 +299,7 @@ button:hover {
 }
 
 .videogallery {
+    background-color: #FFF;
     border: 3px rgb(173, 46, 46) solid;
     display: flex;
     justify-content: space-evenly;
