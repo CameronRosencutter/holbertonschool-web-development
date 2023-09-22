@@ -117,7 +117,7 @@ button {
 
 button:hover {
     color: #C271FF;
-    transition: 0.5s;
+    transition: 0.2s;
     transform: scale(1.02);
     background-color: white;
     box-shadow: 0 0.4em 1em rgba(0, 0, 0, 0.1),
@@ -129,22 +129,28 @@ button:hover {
 .learntitle {
     text-align: center;
     position: relative;
-    top: 600px;
 }
 
-.learn {
-    
-}
 
 .ThePros {
-    margin-top: 250px;
+    border: rgb(223, 21, 21) solid 3px;
     border: 3px black solid;
     display: flex;
-    height: 130px;
     justify-content: space-evenly;
     position: relative;
-    top: 400px;
 }
+
+.ThePros img {
+    border: red 3px solid;
+}
+
+.ThePros img:hover {
+    transition: 0.3s;
+    transform: scale(1.2);
+    border: red 3px solid;
+}
+
+
 /*---------------------------------------------------------------*/
 
 /*---------------------------------------------------------------*/
