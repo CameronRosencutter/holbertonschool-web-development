@@ -56,6 +56,13 @@ html,body
     border: purple 3px solid;
     height: 30px;
     width: auto;
+    transition: 0.4s;
+}
+
+.headerlogo:hover  {
+    transform: scale(1.3);
+    width: auto;
+    transition: 0.4s;
 }
 
 .headerborder {
@@ -116,6 +123,12 @@ html,body
     line-height: normal;
     border: rgb(67, 179, 210) solid 3px;
     margin: 0px;
+    transition: 0.5s;
+}
+
+.GetSchooled h1:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
 }
 
 .GetSchooled p {
@@ -130,11 +143,6 @@ html,body
     word-spacing: 90px;
     text-transform: uppercase;
     margin: 0px;
-}
-
-.GetSchooled p:hover {
-    transform: scale(1.1);
-    transition: 0.3s ease-in;
 }
 
 .buttoncontainer {
@@ -297,10 +305,11 @@ button:hover {
 }
 
 .populartitle {
-    border: 3px black solid;
+    border: 3px rgb(171, 209, 95) solid;
     text-align: center;
     margin: 60px;
-    font-family: Source Sans Pro;
+    font-size: 50px;
+    font-family: Source Sans Pro-Light;
 }
 
 .videogallery {
@@ -394,10 +403,12 @@ button:hover {
     color: #FFF;
     text-align: center;
     border: 3px black solid;
+    font-family: Source Sans Pro;
+    font-size: 45px;
 }
 
 .Membership {
-    border: 3px black solid;
+    border: 3px rgb(152, 221, 13) solid;
     display: flex;
     justify-content: space-evenly;
 }
@@ -416,13 +427,14 @@ button:hover {
 }
 
 .smileyface {
-    border: 3px red solid;
+    border: 3px rgb(162, 67, 67) solid;
     margin: 30px;
+    width: 100%;
+    text-align: center;
 }
 
 .smileyface img{
     border: 3px red solid;
-    margin: 10px 180px;
 }
 
 .registerbutton {
@@ -530,8 +542,8 @@ button:hover {
 }
 
 .bottomlogos img{
-    border: 3px rgb(29, 231, 29) solid;
-    padding: 0px 50px;
+    transition: 0.3s;
+    padding: 0px 80px;
 }
 
 .bottomtext {
