@@ -28,6 +28,11 @@
     src: url(./Fonts/source-sans-pro/SourceSansPro-Light.otf);
 }
 
+@font-face {
+    font-family: Source Sans Pro-ExtraLight;
+    src: url(./Fonts/source-sans-pro/SourceSansPro-ExtraLight.otf);
+}
+
 html,body
 {
     overflow-x: hidden;
@@ -331,11 +336,13 @@ button:hover {
 .titleanddesc h1{
     border: blue solid 3px;
     margin: 0px;
+    font-family: Source Sans Pro;
 }
 
 .titleanddesc p{
     border: blue solid 3px;
     margin: 0px;
+    font-family:  Source Sans Pro-Light;
 }
 
 .philipmaseyvideo {
@@ -357,6 +364,7 @@ button:hover {
     margin-top: 18px;
     color: #C271FF;
     font-size: 15px;
+    font-family: Source Sans Pro-Light;
 }
 
 .philipmaseyrating {
@@ -367,13 +375,15 @@ button:hover {
 .philipmaseyrating img {
     border: 3px rgb(16, 120, 147) solid;
     height: 100%;
-    margin-top: 26px;
 }
 
 .philipmaseyrating h1 {
+    font-family: Source Sans Pro-Light;
     border: 3px rgb(16, 120, 147) solid;
     height: 100%;
+    margin-top: 0px;
     margin-left: 15px;
+    font-size: 15px;
 }
 /*---------------------------------------------------------------*/
 
@@ -381,6 +391,7 @@ button:hover {
 /*This is the Freemembership section. Most of the text will be lorem ipsum,
     along with a register for free button*/
 .freemembershiptitle {
+    color: #FFF;
     text-align: center;
     border: 3px black solid;
 }
@@ -392,11 +403,16 @@ button:hover {
 }
 
 .Membership h1 {
+    font-family: Source Sans Pro-Bold;
+    color: #FFF;
     text-align: center;
 }
 
 .Membership p {
+    font-family: Source Sans Pro;
+    color: #FFF;
     text-align: center;
+    font-size: 18px;
 }
 
 .smileyface {
@@ -404,32 +420,78 @@ button:hover {
     margin: 30px;
 }
 
+.smileyface img{
+    border: 3px red solid;
+    margin: 10px 180px;
+}
+
 .registerbutton {
+    text-align: center;
     border: 3px red solid;
     position: relative;
-    left: 47%;
 }
 /*---------------------------------------------------------------*/
 
 /*---------------------------------------------------------------*/
 /*This will display the FAQ section, also mostly filled with Lorem Ipsum*/
 
-.FAQ {
-    margin-top: 50px;
-    border: 3px black solid;
-    text-align: center;
+
+.faqsection{
+    background: #FFF;
+    border: rgb(104, 212, 27) solid 3px;
 }
+
+.FAQ {
+    border: blue solid 3px;
+    font-size: 80px;
+    font-family: Source Sans Pro-ExtraLight;
+    text-align: center;
+    margin: 40px;
+}
+
 
 .Row1 {
     border: 3px black solid;
     justify-content: space-evenly;
     display: flex;
+    margin: 30px 0px;
+}
+
+.Row1 h1 {
+    font-family: Source Sans Pro-Bold;
+    border: purple solid 3px;
+    text-align: center;
+    margin: 20px;
+}
+
+.Row1 p {
+    font-family: Source Sans Pro-ExtraLight;
+    border: purple solid 3px;
+    width: 500px;
+    margin: 0px;
+    font-size: 18px;
 }
 
 .Row2 {
     border: 3px black solid;
     justify-content: space-evenly;
     display: flex;
+    margin: 30px 0px;
+}
+
+.Row2 h1 {
+    font-family: Source Sans Pro-Bold;
+    border: purple solid 3px;
+    text-align: center;
+    margin: 20px;
+}
+
+.Row2 p {
+    font-family: Source Sans Pro-ExtraLight;
+    border: purple solid 3px;
+    width: 500px;
+    margin: 0px;
+    font-size: 18px;
 }
 /*---------------------------------------------------------------*/
 
@@ -437,35 +499,47 @@ button:hover {
 /*This is the footer. It will be at the very end of the website and contain media icson.*/
 
 .Footer {
-    border: 3px black solid;
+    border: 3px rgb(255, 255, 255) solid;
+    height: 200px;
 }
 
 .footerborder {
     margin: 10px;
-    border: 3px black solid;
+    border: 3px rgb(248, 132, 132) solid;
+    height: auto;
 }
 
 .logoandicons {
     justify-content: right;
     display: flex;
-    border: 3px red solid;
+    border: 3px red solid 5px;
 }
 
 .bottomicon {
-    left: -70%;
+    left: -50%;
     position: relative;
     border: 3px black solid;
+    margin-top: 30px;
 }
 
 .bottomlogos {
+    margin-top: 30px;
     align-items: right;
-    border: 3px black solid;
+    border: 3px rgb(231, 29, 29) solid;
+    padding-right: 100px;
+}
+
+.bottomlogos img{
+    border: 3px rgb(29, 231, 29) solid;
+    padding: 0px 50px;
 }
 
 .bottomtext {
+    margin: 10px;
     text-align: center;
     justify-content: center;
     border: 3px yellow solid;
+    color: white;
 }
 /*---------------------------------------------------------------*/
 
