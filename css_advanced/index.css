@@ -46,14 +46,14 @@ html,body
 /*---------------------------------------------------------------*/
 /*This is the Header. It contains the logo and the navbar links*/
 .Header {
-    border: 3px black solid;
+    border: 0px black solid;
     height: 80px;
     width: auto;
-    margin: 0px 100px; 
+    margin: 45px 100px; 
 }
 
 .headerlogo  {
-    border: purple 3px solid;
+    border: purple 0px solid;
     height: 30px;
     width: auto;
     transition: 0.4s;
@@ -66,12 +66,12 @@ html,body
 }
 
 .headerborder {
-    border: 3px red solid;
+    border: 0px red solid;
     margin: 20px;
 }
 
 .links {
-    border: red solid 3px;
+    border: red solid 0px;
     display: flex;
     float: right;
     list-style: none;
@@ -85,7 +85,7 @@ html,body
     font-weight: 700;
     line-height: normal;
     margin: 40px;
-    border: blue solid 2px;
+    border: blue solid 0px;
     text-decoration: none;
     transition: 0.3s all;
 }
@@ -93,7 +93,7 @@ html,body
 .links a:hover {
     transition: 0.3s;
     font-size: 27px;
-    color: blue;
+    color: rgb(31, 208, 252);
 }
 
 /*---------------------------------------------------------------*/
@@ -102,14 +102,14 @@ html,body
 /*This is the main banner. It will containn the title 
     Get Schooled along with the pros listed below*/
 .Banner {
-    border: 3px black solid;;
+    border: 0px black solid;;
     height: auto;
     width: auto;
 }
 
 .GetSchooled {
     margin: 185px 40px;
-    border: 3px rgb(194, 230, 34) solid;
+    border: 0px rgb(194, 230, 34) solid;
     align-items: center;
 }
 
@@ -121,7 +121,7 @@ html,body
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    border: rgb(67, 179, 210) solid 3px;
+    border: rgb(67, 179, 210) solid 0px;
     margin: 0px;
     transition: 0.5s;
 }
@@ -139,7 +139,7 @@ html,body
     font-style: normal;
     font-weight: 700;
     line-height: normal;
-    border: green 3px solid;
+    border: green 0px solid;
     word-spacing: 90px;
     text-transform: uppercase;
     margin: 0px;
@@ -147,7 +147,7 @@ html,body
 
 .buttoncontainer {
     text-align: center;
-    border: purple 3px solid;
+    border: purple 0px solid;
     margin: 40px;
 }
 
@@ -192,7 +192,8 @@ button:hover {
     font-weight: 300;
     line-height: normal;
     text-align: center;
-    border: yellow solid 2px;
+    border: yellow solid 0px;
+    margin: 50px;
 }
 
 .learntitle h1 {
@@ -201,15 +202,16 @@ button:hover {
 
 
 .ThePros {
-    border: 3px rgb(241, 47, 47) solid;
+    border: 0px rgb(241, 47, 47) solid;
     display: flex;
     justify-content: space-evenly;
+    margin: 20px;
 }
 
 /*Each icon will grow and saturate when hovered over*/
 .ThePros img {
     filter: saturate(0.4);
-    border: white solid 3px;
+    border: white solid 0px;
 }
 
 .ThePros img:hover {
@@ -217,6 +219,7 @@ button:hover {
     transition: 0.3s;
     transform: scale(1.1);
 }
+
 
 
 .ThePros h1 {
@@ -238,7 +241,7 @@ button:hover {
     font-style: italic;
     font-weight: 400;
     line-height: 24px;
-    margin: 3px;
+    margin: 0px;
 }
 
 
@@ -248,7 +251,7 @@ button:hover {
 /*This will display a portrait of a man, along with his quote to the side*/
 .thequote {
     display: flex;
-    border: purple solid 5px;
+    border: purple solid 0px;
     margin-top: 0px;
     width: auto;
     height: 392px;
@@ -258,18 +261,25 @@ button:hover {
 .QuotePerson {
     align-items: center;
     justify-content: center;
-    border: 3px red solid;
+    border: 0px red solid;
     margin-left: 250px;
 }
 
 .QuotePerson img {
     display: flex;
     margin: 100px;
+    transition: 0.3s;
+}
+
+.QuotePerson img:hover {
+    transition: 0.3s;
+    transform: scale(1.4);
+    filter: grayscale(40%);
 }
 
 .QuoteSection {
     width: 900px;
-    border: green 3px solid;
+    border: green 0px solid;
     justify-content: center;
 }
 
@@ -277,14 +287,14 @@ button:hover {
     font-family: Source Sans Pro-Light;
     color: #FFF;
     font-size: 22px;
-    border: 3px black solid;
+    border: 0px black solid;
     margin-top: 130px;
 }
 
 .QuoteSection p {
     color: #FFF;
     font-family: Source Sans Pro;
-    border: blue solid 3px;
+    border: blue solid 0px;
     margin: 10px 40px;
     font-size: 18px;
 }
@@ -296,16 +306,18 @@ button:hover {
 /*This is the video gallery that will display thumbnails and the 
     content creator*/
 .VideoSection {
-    border: 3px black solid;
+    border: 0px black solid;
+    background-color: #FFF;
 }
 
 .titlevideo {
     background-color: #FFF;
-    border: rgb(255, 29, 255) solid 3px;
+    border: rgb(255, 255, 255) solid 01px;
+    margin: ;
 }
 
 .populartitle {
-    border: 3px rgb(171, 209, 95) solid;
+    border: 0px rgb(171, 209, 95) solid;
     text-align: center;
     margin: 60px;
     font-size: 50px;
@@ -314,16 +326,15 @@ button:hover {
 
 .videogallery {
     background-color: #FFF;
-    border: 3px rgb(173, 46, 46) solid;
+    border: 0px rgb(173, 46, 46) solid;
     display: flex;
     justify-content: space-evenly;
-    height: auto;
+    height: 350px;
 }
 
 .play {
     margin: 40px 90px;
     position: absolute;
-    border: red solid 4px;
     transition: 0.3s;
 }
 
@@ -335,63 +346,64 @@ button:hover {
 
 .Video {
     height: 100%;
-    border: 3px rgb(199, 49, 49) solid;
+    border: 0px rgb(199, 49, 49) solid;
 }
 
 .titleanddesc {
-    border: blue solid 3px;
+    border: blue solid 0px;
 }
 
 .titleanddesc h1{
-    border: blue solid 3px;
+    border: blue solid 0px;
     margin: 0px;
     font-family: Source Sans Pro;
 }
 
 .titleanddesc p{
-    border: blue solid 3px;
+    border: blue solid 0px;
     margin: 0px;
     font-family:  Source Sans Pro-Light;
 }
 
 .philipmaseyvideo {
-    border: 3px red solid;
+    border: 0px red solid;
     display: flex;
     height: auto;
 }
 
 .philipmaseyvideo img {
-    border: 3px rgb(223, 213, 17) solid;
+    border: 0px rgb(223, 213, 17) solid;
     display: flex;
     height: 100%;
-    margin-top: 13px;
+    margin-top: 10px;
 }
 
 .philipmaseyvideo h1 {
-    border: 3px rgb(223, 213, 17) solid;
+    border: 0px rgb(223, 213, 17) solid;
     display: flex;
-    margin-top: 18px;
+    margin-top: 14px;
+    margin-left: 15px;
     color: #C271FF;
     font-size: 15px;
     font-family: Source Sans Pro-Light;
 }
 
 .philipmaseyrating {
-    border: 3px rgb(143, 203, 218) solid;
+    border: 0px rgb(143, 203, 218) solid;
     display: flex;
 }
 
 .philipmaseyrating img {
-    border: 3px rgb(16, 120, 147) solid;
+    border: 0px rgb(16, 120, 147) solid;
     height: 100%;
 }
 
 .philipmaseyrating h1 {
     font-family: Source Sans Pro-Light;
-    border: 3px rgb(16, 120, 147) solid;
+    border: 0px rgb(16, 120, 147) solid;
     height: 100%;
     margin-top: 0px;
-    margin-left: 15px;
+    margin-left: 18px;
     font-size: 15px;
 }
 /*---------------------------------------------------------------*/
@@ -402,13 +414,13 @@ button:hover {
 .freemembershiptitle {
     color: #FFF;
     text-align: center;
-    border: 3px black solid;
+    border: 0px black solid;
     font-family: Source Sans Pro;
     font-size: 45px;
 }
 
 .Membership {
-    border: 3px rgb(152, 221, 13) solid;
+    border: 0px rgb(152, 221, 13) solid;
     display: flex;
     justify-content: space-evenly;
 }
@@ -427,19 +439,19 @@ button:hover {
 }
 
 .smileyface {
-    border: 3px rgb(162, 67, 67) solid;
+    border: 0px rgb(162, 67, 67) solid;
     margin: 30px;
     width: 100%;
     text-align: center;
 }
 
 .smileyface img{
-    border: 3px red solid;
+    border: 0px red solid;
 }
 
 .registerbutton {
     text-align: center;
-    border: 3px red solid;
+    border: 0px red solid;
     position: relative;
 }
 /*---------------------------------------------------------------*/
@@ -450,20 +462,21 @@ button:hover {
 
 .faqsection{
     background: #FFF;
-    border: rgb(104, 212, 27) solid 3px;
+    border: rgb(104, 212, 27) solid 0px;
 }
 
 .FAQ {
-    border: blue solid 3px;
+    border: blue solid 0px;
     font-size: 80px;
     font-family: Source Sans Pro-ExtraLight;
     text-align: center;
     margin: 40px;
+    margin-top: 80px;
 }
 
 
 .Row1 {
-    border: 3px black solid;
+    border: 0px black solid;
     justify-content: space-evenly;
     display: flex;
     margin: 30px 0px;
@@ -471,21 +484,21 @@ button:hover {
 
 .Row1 h1 {
     font-family: Source Sans Pro-Bold;
-    border: purple solid 3px;
+    border: purple solid 0px;
     text-align: center;
     margin: 20px;
 }
 
 .Row1 p {
     font-family: Source Sans Pro-ExtraLight;
-    border: purple solid 3px;
+    border: purple solid 0px;
     width: 500px;
     margin: 0px;
     font-size: 18px;
 }
 
 .Row2 {
-    border: 3px black solid;
+    border: 0px black solid;
     justify-content: space-evenly;
     display: flex;
     margin: 30px 0px;
@@ -493,16 +506,16 @@ button:hover {
 
 .Row2 h1 {
     font-family: Source Sans Pro-Bold;
-    border: purple solid 3px;
+    border: purple solid 0px;
     text-align: center;
     margin: 20px;
 }
 
 .Row2 p {
     font-family: Source Sans Pro-ExtraLight;
-    border: purple solid 3px;
+    border: purple solid 0px;
     width: 500px;
-    margin: 0px;
+    margin-bottom: 100px;
     font-size: 18px;
 }
 /*---------------------------------------------------------------*/
@@ -511,33 +524,33 @@ button:hover {
 /*This is the footer. It will be at the very end of the website and contain media icson.*/
 
 .Footer {
-    border: 3px rgb(255, 255, 255) solid;
+    border: 0px rgb(255, 255, 255) solid;
     height: 200px;
 }
 
 .footerborder {
     margin: 10px;
-    border: 3px rgb(248, 132, 132) solid;
+    border: 0px rgb(248, 132, 132) solid;
     height: auto;
 }
 
 .logoandicons {
     justify-content: right;
     display: flex;
-    border: 3px red solid 5px;
+    border: 0px red solid 5px;
 }
 
 .bottomicon {
     left: -45%;
     position: relative;
-    border: 3px black solid;
+    border: 0px black solid;
     margin-top: 30px;
 }
 
 .bottomlogos {
     margin-top: 30px;
     align-items: right;
-    border: 3px rgb(231, 29, 29) solid;
+    border: 0px rgb(231, 29, 29) solid;
     padding-right: 100px;
 }
 
@@ -550,7 +563,7 @@ button:hover {
     margin: 10px;
     text-align: center;
     justify-content: center;
-    border: 3px yellow solid;
+    border: 0px yellow solid;
     color: white;
 }
 /*---------------------------------------------------------------*/
