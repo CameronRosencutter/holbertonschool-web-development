@@ -39,6 +39,6 @@ This will change its color and size.
 Its a code used in CSS to implement a certain element from its HTML file. In the previous example, ".h1" is the class for h1.
 </details>
 
-<details><summary>What is an element/tag?</summary>
+<details><summary>What is a selector?</summary>
 An element is the main source of filling out your webpage. Its goal is to display the desired content within its brackets. For example...
 </details>
