@@ -313,7 +313,6 @@ button:hover {
 .titlevideo {
     background-color: #FFF;
     border: rgb(255, 255, 255) solid 01px;
-    margin: ;
 }
 
 .populartitle {
@@ -403,8 +402,9 @@ button:hover {
     border: 0px rgb(16, 120, 147) solid;
     height: 100%;
     margin-top: 0px;
-    margin-left: 18px;
+    margin-left: 48px;
     font-size: 15px;
+    color: #C271FF;
 }
 /*---------------------------------------------------------------*/
 
@@ -470,8 +470,7 @@ button:hover {
     font-size: 80px;
     font-family: Source Sans Pro-ExtraLight;
     text-align: center;
-    margin: 40px;
-    margin-top: 80px;
+    padding: 50px;
 }
 
 
@@ -535,13 +534,12 @@ button:hover {
 }
 
 .logoandicons {
-    justify-content: right;
+    justify-content: left;
     display: flex;
-    border: 0px red solid 5px;
+    border:  red solid 0px;
 }
 
 .bottomicon {
-    left: -45%;
     position: relative;
     border: 0px black solid;
     margin-top: 30px;
@@ -551,12 +549,12 @@ button:hover {
     margin-top: 30px;
     align-items: right;
     border: 0px rgb(231, 29, 29) solid;
-    padding-right: 100px;
+    margin-left: 1000px;
 }
 
 .bottomlogos img{
     transition: 0.3s;
-    padding: 0px 80px;
+    padding: 0px 20px;
 }
 
 .bottomtext {

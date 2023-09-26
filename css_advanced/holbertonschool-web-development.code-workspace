@@ -1,10 +1,9 @@
 {
 	"folders": [
 		{
+			"name": "holbertonschool-web-development",
 			"path": ".."
 		}
 	],
-	"settings": {
-		"git.ignoreLimitWarning": true
-	}
+	"settings": {}
 }
