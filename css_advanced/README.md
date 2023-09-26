@@ -1,14 +1,14 @@
 # holbertonschool-web-development
-## Learning Objectives: To better understand HTML and how to plan the layout accordingly.
+## Learning Objectives: To better understand CSS and how to design the layout accordingly.
 
 
 
 ### html_advanced
-<details><summary>What is HTML?</summary>
-HTML stands for HyperText Markup Language. It is the language used to display webpages. It is extremely difficult (if not impossible) to find a webpage that does not use HTML. HTML has a variety of elements to use, such as headings, paragraphs, buttons, links , title , and many more. You can display your desired info in these elements, including being able to add titles to your paragraphs and linking to a different webpage.
+<details><summary>What is CSS?</summary>
+CSS stands for Cascading Style Sheets. If the the HTML is the skeleton of a site, CSS is the skin adorning it. CSS is used for designing your site to be more visually pleasing to the viewer. You can rearrange the contents of a page, change the color of font and backgrounds alike, and many other effects.
 </details>
 
-<details><summary>How to create an HTML page from a wireframe?</summary>
+<details><summary>How to add style to an element?</summary>
 Before beginning your your HTML webpage, you should plan ahead and decide what will be displayed on the page. It is advised to make a rough draft of how you wish for your page to be layed out. It doesn't need to look pretty, just legible.
 
 Next you ascertain which elements you want to include. If you want a title for your page, you will need to use the title element. If you want a navbar to link to different pages, use the link element. Knowing which elements you will need is integral to designing your website.
