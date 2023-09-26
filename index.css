@@ -1,0 +1,567 @@
+@font-face {
+    font-family: Source Sans Pro;
+    src: url(./Fonts/source-sans-pro/SourceSansPro-Regular.otf);
+}
+
+@font-face {
+    font-family: Source Sans Pro-Black;
+    src: url(./Fonts/source-sans-pro/SourceSansPro-Black.otf);
+}
+
+@font-face {
+    font-family: Source Sans Pro-SemiBold;
+    src: url(./Fonts/source-sans-pro/SourceSansPro-Semibold.otf);
+}
+
+@font-face {
+    font-family: Source Sans Pro-Bold;
+    src: url(./Fonts/source-sans-pro/SourceSansPro-Bold.otf);
+}
+
+@font-face {
+    font-family: Source Sans Pro_Lightit;
+    src: url(./Fonts/source-sans-pro/SourceSansPro-LightIt.otf);
+}
+
+@font-face {
+    font-family: Source Sans Pro-Light;
+    src: url(./Fonts/source-sans-pro/SourceSansPro-Light.otf);
+}
+
+@font-face {
+    font-family: Source Sans Pro-ExtraLight;
+    src: url(./Fonts/source-sans-pro/SourceSansPro-ExtraLight.otf);
+}
+
+html,body
+{
+    overflow-x: hidden;
+    background-image: url(./Images/Background.png);
+    background-repeat: no-repeat;
+    background-size:100%;
+    margin: auto;
+    background-color: #071728;
+}
+
+/*---------------------------------------------------------------*/
+/*This is the Header. It contains the logo and the navbar links*/
+.Header {
+    border: 0px black solid;
+    height: 80px;
+    width: auto;
+    margin: 45px 100px; 
+}
+
+.headerlogo  {
+    border: purple 0px solid;
+    height: 30px;
+    width: auto;
+    transition: 0.4s;
+}
+
+.headerlogo:hover  {
+    transform: scale(1.3);
+    width: auto;
+    transition: 0.4s;
+}
+
+.headerborder {
+    border: 0px red solid;
+    margin: 20px;
+}
+
+.links {
+    border: red solid 0px;
+    display: flex;
+    float: right;
+    list-style: none;
+}
+
+.links a {
+    color: #FFF;
+    font-family: Source Sans Pro-SemiBold;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 40px;
+    border: blue solid 0px;
+    text-decoration: none;
+    transition: 0.3s all;
+}
+
+.links a:hover {
+    transition: 0.3s;
+    font-size: 27px;
+    color: rgb(31, 208, 252);
+}
+
+/*---------------------------------------------------------------*/
+
+/*---------------------------------------------------------------*/
+/*This is the main banner. It will containn the title 
+    Get Schooled along with the pros listed below*/
+.Banner {
+    border: 0px black solid;;
+    height: auto;
+    width: auto;
+}
+
+.GetSchooled {
+    margin: 185px 40px;
+    border: 0px rgb(194, 230, 34) solid;
+    align-items: center;
+}
+
+.GetSchooled h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro-SemiBold;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: rgb(67, 179, 210) solid 0px;
+    margin: 0px;
+    transition: 0.5s;
+}
+
+.GetSchooled h1:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+.GetSchooled p {
+    color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro-SemiBold;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: green 0px solid;
+    word-spacing: 90px;
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+.buttoncontainer {
+    text-align: center;
+    border: purple 0px solid;
+    margin: 40px;
+}
+
+/*This button will have an effect when you hover over it.*/
+button {
+    color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    height: 50px;
+    align-content: center;
+    justify-content: center;
+    font-size: 14px;
+    margin: auto;
+    padding: 1em 2.5em 1em 2.5em;
+    border: none;
+    border-radius: 30px;
+    text-transform: uppercase;
+    background: #C271FF;
+    box-shadow: 0 0.4em 1em rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    color: #C271FF;
+    transition: 0.2s;
+    transform: scale(1.02);
+    background-color: white;
+    box-shadow: 0 0.4em 1em rgba(0, 0, 0, 0.1),
+                0 0.4em 1em rgba(0, 0, 0, 0.1),
+                0 0.4em 1em rgba(0, 0, 0, 0.1),
+                0 0.4em 1em rgba(0, 0, 0, 0.1);
+}
+
+.learntitle {
+    color: #FFF;
+    font-family: Source Sans Pro-SemiBold;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-align: center;
+    border: yellow solid 0px;
+    margin: 50px;
+}
+
+.learntitle h1 {
+    margin: 10px;
+}
+
+
+.ThePros {
+    border: 0px rgb(241, 47, 47) solid;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+/*Each icon will grow and saturate when hovered over*/
+.ThePros img {
+    filter: saturate(0.4);
+    border: white solid 0px;
+}
+
+.ThePros img:hover {
+    filter: saturate(1);
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+
+
+.ThePros h1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro-Bold;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 27px;
+    margin: 0px;
+}
+
+.ThePros p {
+    color: #FFF;
+    text-align: center;
+    font-family: Source Sans Pro_Lightit;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0px;
+}
+
+
+/*---------------------------------------------------------------*/
+
+/*---------------------------------------------------------------*/
+/*This will display a portrait of a man, along with his quote to the side*/
+.thequote {
+    display: flex;
+    border: purple solid 0px;
+    margin-top: 0px;
+    width: auto;
+    height: 392px;
+    background-color: #C271FF;
+}
+
+.QuotePerson {
+    align-items: center;
+    justify-content: center;
+    border: 0px red solid;
+    margin-left: 250px;
+}
+
+.QuotePerson img {
+    display: flex;
+    margin: 100px;
+    transition: 0.3s;
+}
+
+.QuotePerson img:hover {
+    transition: 0.3s;
+    transform: scale(1.4);
+    filter: grayscale(40%);
+}
+
+.QuoteSection {
+    width: 900px;
+    border: green 0px solid;
+    justify-content: center;
+}
+
+.QuoteSection .quote{
+    font-family: Source Sans Pro-Light;
+    color: #FFF;
+    font-size: 22px;
+    border: 0px black solid;
+    margin-top: 130px;
+}
+
+.QuoteSection p {
+    color: #FFF;
+    font-family: Source Sans Pro;
+    border: blue solid 0px;
+    margin: 10px 40px;
+    font-size: 18px;
+}
+
+.QuoteSection 
+/*---------------------------------------------------------------*/
+
+/*---------------------------------------------------------------*/
+/*This is the video gallery that will display thumbnails and the 
+    content creator*/
+.VideoSection {
+    border: 0px black solid;
+    background-color: #FFF;
+}
+
+.titlevideo {
+    background-color: #FFF;
+    border: rgb(255, 255, 255) solid 01px;
+}
+
+.populartitle {
+    border: 0px rgb(171, 209, 95) solid;
+    text-align: center;
+    margin: 60px;
+    font-size: 50px;
+    font-family: Source Sans Pro-Light;
+}
+
+.videogallery {
+    background-color: #FFF;
+    border: 0px rgb(173, 46, 46) solid;
+    display: flex;
+    justify-content: space-evenly;
+    height: 350px;
+}
+
+.play {
+    margin: 40px 90px;
+    position: absolute;
+    transition: 0.3s;
+}
+
+.play:hover {
+    transition: 0.3s;
+    transform: scale(1.1);
+    filter: brightness(1.1);
+}
+
+.Video {
+    height: 100%;
+    border: 0px rgb(199, 49, 49) solid;
+}
+
+.titleanddesc {
+    border: blue solid 0px;
+}
+
+.titleanddesc h1{
+    border: blue solid 0px;
+    margin: 0px;
+    font-family: Source Sans Pro;
+}
+
+.titleanddesc p{
+    border: blue solid 0px;
+    margin: 0px;
+    font-family:  Source Sans Pro-Light;
+}
+
+.philipmaseyvideo {
+    border: 0px red solid;
+    display: flex;
+    height: auto;
+}
+
+.philipmaseyvideo img {
+    border: 0px rgb(223, 213, 17) solid;
+    display: flex;
+    height: 100%;
+    margin-top: 10px;
+}
+
+.philipmaseyvideo h1 {
+    border: 0px rgb(223, 213, 17) solid;
+    display: flex;
+    margin-top: 14px;
+    margin-left: 15px;
+    color: #C271FF;
+    font-size: 15px;
+    font-family: Source Sans Pro-Light;
+}
+
+.philipmaseyrating {
+    border: 0px rgb(143, 203, 218) solid;
+    display: flex;
+}
+
+.philipmaseyrating img {
+    border: 0px rgb(16, 120, 147) solid;
+    height: 100%;
+}
+
+.philipmaseyrating h1 {
+    font-family: Source Sans Pro-Light;
+    border: 0px rgb(16, 120, 147) solid;
+    height: 100%;
+    margin-top: 0px;
+    margin-left: 48px;
+    font-size: 15px;
+    color: #C271FF;
+}
+/*---------------------------------------------------------------*/
+
+/*---------------------------------------------------------------*/
+/*This is the Freemembership section. Most of the text will be lorem ipsum,
+    along with a register for free button*/
+.freemembershiptitle {
+    color: #FFF;
+    text-align: center;
+    border: 0px black solid;
+    font-family: Source Sans Pro;
+    font-size: 45px;
+}
+
+.Membership {
+    border: 0px rgb(152, 221, 13) solid;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Membership h1 {
+    font-family: Source Sans Pro-Bold;
+    color: #FFF;
+    text-align: center;
+}
+
+.Membership p {
+    font-family: Source Sans Pro;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+}
+
+.smileyface {
+    border: 0px rgb(162, 67, 67) solid;
+    margin: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.smileyface img{
+    border: 0px red solid;
+}
+
+.registerbutton {
+    text-align: center;
+    border: 0px red solid;
+    position: relative;
+}
+/*---------------------------------------------------------------*/
+
+/*---------------------------------------------------------------*/
+/*This will display the FAQ section, also mostly filled with Lorem Ipsum*/
+
+
+.faqsection{
+    background: #FFF;
+    border: rgb(104, 212, 27) solid 0px;
+}
+
+.FAQ {
+    border: blue solid 0px;
+    font-size: 80px;
+    font-family: Source Sans Pro-ExtraLight;
+    text-align: center;
+    padding: 50px;
+}
+
+
+.Row1 {
+    border: 0px black solid;
+    justify-content: space-evenly;
+    display: flex;
+    margin: 30px 0px;
+}
+
+.Row1 h1 {
+    font-family: Source Sans Pro-Bold;
+    border: purple solid 0px;
+    text-align: center;
+    margin: 20px;
+}
+
+.Row1 p {
+    font-family: Source Sans Pro-ExtraLight;
+    border: purple solid 0px;
+    width: 500px;
+    margin: 0px;
+    font-size: 18px;
+}
+
+.Row2 {
+    border: 0px black solid;
+    justify-content: space-evenly;
+    display: flex;
+    margin: 30px 0px;
+}
+
+.Row2 h1 {
+    font-family: Source Sans Pro-Bold;
+    border: purple solid 0px;
+    text-align: center;
+    margin: 20px;
+}
+
+.Row2 p {
+    font-family: Source Sans Pro-ExtraLight;
+    border: purple solid 0px;
+    width: 500px;
+    margin-bottom: 100px;
+    font-size: 18px;
+}
+/*---------------------------------------------------------------*/
+
+/*---------------------------------------------------------------*/
+/*This is the footer. It will be at the very end of the website and contain media icson.*/
+
+.Footer {
+    border: 0px rgb(255, 255, 255) solid;
+    height: 200px;
+}
+
+.footerborder {
+    margin: 10px;
+    border: 0px rgb(248, 132, 132) solid;
+    height: auto;
+}
+
+.logoandicons {
+    justify-content: left;
+    display: flex;
+    border:  red solid 0px;
+}
+
+.bottomicon {
+    position: relative;
+    border: 0px black solid;
+    margin-top: 30px;
+}
+
+.bottomlogos {
+    margin-top: 30px;
+    align-items: right;
+    border: 0px rgb(231, 29, 29) solid;
+    margin-left: 1000px;
+}
+
+.bottomlogos img{
+    transition: 0.3s;
+    padding: 0px 20px;
+}
+
+.bottomtext {
+    margin: 10px;
+    text-align: center;
+    justify-content: center;
+    border: 0px yellow solid;
+    color: white;
+}
+/*---------------------------------------------------------------*/
