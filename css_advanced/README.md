@@ -1,7 +1,7 @@
 # holbertonschool-web-development
 ## Learning Objectives: To better understand CSS and how to design the layout accordingly.
 
-
+![Alt text](readme.jpeg)
 
 ### html_advanced
 <details><summary>What is CSS?</summary>
